@@ -116,7 +116,7 @@ void LinkedList::printList(){
     if(temp==NULL){
         cout<<"List is Empty"<<endl;
     }
-    while(temp->Next!=NULL){
+    while(temp!=NULL){
         cout<<temp->data<<" ";
         temp=temp->Next;
     }
